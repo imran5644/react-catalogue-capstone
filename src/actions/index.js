@@ -11,7 +11,8 @@ export const asyncFetchDogs = () => (
     dispatch(fetchDogs());
     const searchPage = 'search/photos';
     const criteria = 'query=dogs-human';
-    const url = `https://api.unsplash.com/${searchPage}?client_id=${process.env.REACT_APP_UNSPLASH_API_KEY}&${criteria}`;
+    const url = `https://api.unsplash.com/${searchPage}?client_id=fa1XHZ_DJdLDUkHIqwc3kU-EUxhYKx0CVSDmDGm1IXM&${criteria}`;
+    console.log(url);
     return fetch(`${url}`)
       .then((result) => result.json())
       .then((data) => dispatch(fetchSuccess(data.results)))
