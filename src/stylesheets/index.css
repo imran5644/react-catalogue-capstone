@@ -1,5 +1,5 @@
 :root {
-  --green-color: rgb(71 154 153);
+  --pink-color: rgb(216, 66, 201);
   --blue-color: rgb(102 154 204);
   --black-color: rgb(51 51 51);
   --red-color: rgb(155 27 13);
@@ -24,5 +24,5 @@ main {
 }
 
 .bg-green {
-  background-color: var(--green-color);
+  background-color: var(--pink-color);
 }
