@@ -24,6 +24,12 @@ describe('dogsReducer', () => {
       });
     });
 
+    describe('FETCH DETAIL FAILURE', () => {
+      it('should return false when detail will not fetch', () => {
+        expect(dogsReducer(false, {})).toBeFalsy();
+      });
+    });
+
     describe('FETCH DOGS SUCCESS', () => {
       it('should return an array containing items inside the action url', () => {
         expect(dogsReducer(['dogs-humans'], {})).toEqual(['dogs-humans']);
