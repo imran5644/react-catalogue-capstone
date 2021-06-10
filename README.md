@@ -7,7 +7,7 @@
 
 ## Live Link Demo
 
-[Catalogue of Statistics](https://hopeful-varahamihira-a2521a.netlify.app)
+[Catalogue of Statistics](https://peaceful-bardeen-ac96b8.netlify.app)
 
 
 ## Built With
