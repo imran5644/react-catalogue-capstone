@@ -7,7 +7,7 @@ import Filter from './Filter';
 const handleClick = () => true;
 
 describe('Filter', () => {
-  test('renders About component', () => {
+  test('renders Filter component', () => {
     render(<Filter handleOnClick={() => handleClick()} />, { wrapper: MemoryRouter });
     screen.getByText(/Dogs and humans/);
   });
