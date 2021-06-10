@@ -1,6 +1,6 @@
 <h3 align="center">Catalogue of Statistics</h3>
 
-<p align="center">Catalogue of Statistics app in React is a practice project, which includes manipulating dynamically the Virtual DOM and, use States and Props (useState Hook) and useEffect Hook to change the information accordingly with the user interactions. All photos are retrieved from Unsplash API and the information kept on a Redux store available on all application components.</p>
+<p align="center">Catalogue of Statistics app in React is a practice project, which includes manipulating dynamically the Virtual DOM and, use States and Props (useState Hook) and useEffect Hook to change the information accordingly with the user interactions. All photos are retrieved from Unsplash API and the information kept on a Redux store available on all application components. In order to test the React Components, I use Jest and React Testing Library. Built with React, JavaScript, HTML5, CSS3, Bootstrap, Redux and Prop-types.</p>
 
 ## App Screenshot
 ![screenshot](./screenshot.png)
@@ -17,6 +17,8 @@
 - CSS3
 - Bootstrap
 - JavaScript
+- Jest
+- React Testing Library
 - Redux
 - Redux thunk
 
@@ -55,7 +57,10 @@ To make any change,
   - If it doesn't open automatically go to your browser and type the url `http://localhost:3000`
   - If you prefer to use the production minified JavaScript file run `npm run build` to create the build folder with the distribution files that can be served on your server.
 
-   
+## Test
+  - Run `npm run test` to perform unit tests, also tests if React components are being correctly rendered;
+
+  
 ## Author
 
 👤  **Imran Yousaf**
@@ -88,6 +93,8 @@ Give a ⭐️ if you like this project!
 - W3Schools
 - Font Awesome
 - Javascript
+- Jest
+- React Testing Library
 - Redux
 - Redux-thunk
 - Unsplash
