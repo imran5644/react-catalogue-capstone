@@ -23,9 +23,9 @@ ReactDOM.render(
       <main className="d-flex flex-column position-relative p-5 mx-auto">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/category/:id" component={Home} />
-          <Route path="/photos/:dogId" component={Detail} />
+          <Route path="/about" exact component={About} />
+          <Route path="/category/:id" exact component={Home} />
+          <Route path="/photos/:dogId" exact component={Detail} />
         </Switch>
       </main>
       <Footer />
