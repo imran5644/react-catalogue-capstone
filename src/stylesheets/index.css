@@ -1,5 +1,5 @@
 :root {
-  --green-color: rgb(71 154 153);
+  --pink-color: rgb(216, 66, 201);
   --blue-color: rgb(102 154 204);
   --black-color: rgb(51 51 51);
   --red-color: rgb(155 27 13);
@@ -11,19 +11,18 @@
   height: 1vh;
 }
 
-header,
-footer {
-  background-color: var(--green-color);
-}
-
 .font-lilita-one {
   font-family: 'Lilita One', cursive;
 }
 
-nav {
-  background-color: var(--green-color);
+main {
+  min-height: 400px;
+  background-color: #fff;
+  top: -50px;
+  width: 85%;
+  border-radius: 20px;
 }
 
-main {
-  height: 400px;
+.bg-green {
+  background-color: var(--pink-color);
 }
