@@ -9,6 +9,12 @@
 
 [Catalogue of Statistics](https://peaceful-bardeen-ac96b8.netlify.app)
 
+## Project videos
+
+https://www.loom.com/share/60914bf7feee468c9682978242521656
+
+https://www.loom.com/share/bc9492fe214e4ad097d88fa2a8057199
+
 
 ## Built With
 
